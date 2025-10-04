@@ -3,7 +3,7 @@
 [![PyPI version](https://img.shields.io/pypi/v/pcloud-python-sdk.svg)](https://pypi.org/project/pcloud-python-sdk/)
 ![CI](https://github.com/you/pcloud-python-sdk/actions/workflows/ci.yml/badge.svg)
 
-Dropbox-style Python SDK for the pCloud API.
+Python SDK for the pCloud API.
 
 ## Install
 ```bash
