@@ -15,7 +15,7 @@ pip install pcloud-python-sdk
 from pcloud import PCloud, PCloudOAuth2Flow
 
 # 1) OAuth flow (web) — paste the code back
-flow = PCloudOAuth2Flow(app_key, app_secret, redirect_uri, location="EU")
+flow = PCloudOAuth2Flow(app_key, app_secret, location="EU")
 print("Go to:", flow.start(state="xyz"))
 code = input("Paste code: ").strip()
 token = flow.finish(code)
